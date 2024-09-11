@@ -1,0 +1,228 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    text-decoration: none;
+}
+
+.cajacontacto {
+    display: flex;
+    width: 38vw;
+    height: 90px;
+    align-items: center;
+    font-size: 10px;
+    background-color: white;
+    border-top: 1px solid #F2F4F5;
+    border-bottom: 1px solid #F2F4F5;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+.cajacontacto:hover {
+    background-color: #F0F2F5;
+
+}
+
+
+.fotoperfilcontactos {
+
+
+    width: 45px;
+    height: 45px;
+    border-radius: 150px;
+    border: 1px solid #ded7d7;
+}
+
+.cuerpocontacto {
+    display: flex;
+    width: 38vw;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+
+}
+
+
+.nombreyultimomensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    padding-left: 10px;
+    max-width: 75%;
+}
+
+.nombrecontacto {
+    color: black;
+    width: 200px;
+    font-size: 14px;
+}
+
+.ultimomensaje {
+    color: #667781;
+    font-size: 12px;
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+.fechacontacto {
+    color: #667781;
+    font-size: 11px;
+    margin-left: auto;
+    padding-right: 10px;
+    white-space: nowrap;
+
+}
+
+
+
+/* Large Desktops */
+@media screen and (max-width: 1200px) {
+    .cajacontacto {
+        overflow-x: hidden;
+        height: 60px;
+    }
+
+
+    .fotoperfilcontactos {
+        width: 42px;
+        height: 42px;
+        border-radius: 150px;
+        border: 1px solid #ded7d7;
+    }
+
+    .nombrecontacto {
+        font-size: 10px;
+    }
+}
+
+
+/* Desktops */
+@media screen and (max-width: 992px) {
+    .cajacontacto {
+        overflow-x: hidden;
+        height: 60px;
+        padding-left: 0px;
+    }
+
+    .fotoperfilcontactos {
+
+
+        width: 42px;
+        height: 42px;
+        border-radius: 150px;
+        border: 1px solid #ded7d7;
+    }
+
+    .nombrecontacto {
+        font-size: 12px;
+    }
+
+    .ultimomensaje {
+        font-size: 10px;
+    }
+
+    .fechacontacto {
+        font-size: 9px;
+    }
+}
+
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .cajacontacto {
+        overflow-x: hidden;
+        height: 60px;
+        padding-left: 0px;
+    }
+
+    .fotoperfilcontactos {
+
+
+        width: 38px;
+        height: 38px;
+        border-radius: 150px;
+        border: 1px solid #ded7d7;
+    }
+
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .nombrecontacto {
+        font-size: 10px;
+    }
+
+    .ultimomensaje {
+        font-size: 8px;
+    }
+
+    .fechacontacto {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .ultimomensaje {
+        display: none;
+    }
+
+    .nombrecontacto {
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .nombreyultimomensaje {
+        padding: 3px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    .cajacontacto {
+        width: 39vw;
+        overflow-x: hidden;
+        display: flex;
+        height: 60px;
+        padding-left: 0px;
+    }
+
+    .cuerpocontacto {
+        display: flex;
+        width: 60px;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        padding-right: 10px;
+
+    }
+
+    .nombreyultimomensaje {
+        padding-left: 0px;
+    }
+
+    .nombrecontacto {
+        color: black;
+        width: 60px;
+        font-size: 8px;
+        font-weight: 100;
+        text-align: center;
+        padding-right: 25px;
+    }
+
+    .fotoperfilcontactos {
+        width: 25px;
+        height: 25px;
+        border-radius: 150px;
+        border: 1px solid #ded7d7;
+
+    }
+}
